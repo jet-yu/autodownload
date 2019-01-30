@@ -23,11 +23,11 @@
         }
 
         // 根据不同的终端，跳转到不同的地址
-        var theUrl = 'https://itunes.apple.com/app/id1247266869';
+        var theUrl = 'https://pan.baidu.com/s/1ckjeUkA2ImCnfOknTLusvw';
         if(Terminal.platform.android){//安卓端
-            document.write('抱歉，“美食街 - 厨房菜谱大全”暂时没有安卓版APP!');
-            //theUrl = 'https://itunes.apple.com/app/id1247266869';
-            //location.href = theUrl;
+            
+            theUrl = 'https://pan.baidu.com/s/1ckjeUkA2ImCnfOknTLusvw';
+            location.href = theUrl;
         } else {
             if(Terminal.platform.iPhone){//iPhone端
                 theUrl = 'https://itunes.apple.com/app/id1247266869';
